@@ -74,6 +74,26 @@ img {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 419px) {
+  .container{
+    background-color: ivory;
+  }
+
+  .container.grey{
+    background-color: #ecf0f1;
+  }
+
+ .container:last-child{
+   background-color: white;
+ }
+
+ h1{
+   font-size: 25px;
+ }
+ 
+ .container:last-child hr{
+   display: none;
+ }
+
   .row {
     width: 100%;   
     margin-top: 25px; 
