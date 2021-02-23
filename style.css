@@ -73,6 +73,51 @@ img {
 
 /* MEDIA QUERY */
 
+@media screen and (max-width: 768px){
+  
+  body{
+    background-color: honeydew;
+  }
+
+  .container{
+    background-color: ivory;
+  }
+
+  .container.grey{
+    background-color: #ecf0f1;
+  }
+
+ .container:last-child{
+   background-color: white;
+ }
+
+ h1{
+   font-size: 25px;
+ }
+
+ .row {
+  width: 100%;   
+  margin-top: 50px; 
+}
+
+#lezioni img, #steps img {
+  height: 100px;
+}
+
+.container:last-child img{
+  height: 60px;
+}
+
+.container:last-child hr{
+  display: none;
+}
+
+#why .row > .first, #why .row > .second, #why .row > .third{
+  margin-top: 10px;
+}
+ 
+}
+
 @media screen and (max-width: 419px) {
   .container{
     background-color: ivory;
