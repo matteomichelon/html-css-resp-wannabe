@@ -94,6 +94,10 @@ img {
    display: none;
  }
 
+ .container:last-child img{
+   height: 60px;
+ }
+
   .row {
     width: 100%;   
     margin-top: 25px; 
